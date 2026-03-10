@@ -2,7 +2,6 @@
 from product import Product
 from product_manager import ProductManager
 
-
 manager = ProductManager()
 
 product1 = Product("Laptop", 1000, 5)
@@ -14,4 +13,8 @@ manager.add_product(product2)
 manager.add_product(product3)
 
 print("Products:")
+manager.display_products()
+
+manager.total_inventory_value()
+
 
