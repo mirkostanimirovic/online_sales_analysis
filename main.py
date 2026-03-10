@@ -15,6 +15,3 @@ manager.add_product(product3)
 
 print("Products:")
 
-manager.display_products()
-
-manager.total_inventory_value()
